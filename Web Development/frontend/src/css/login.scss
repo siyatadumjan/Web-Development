@@ -1,0 +1,39 @@
+.form-section {
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-section form {
+  background-color: lightgrey;
+  padding: 3rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  align-items: center;
+}
+
+.form-section input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 576px) {
+  .form-section {
+    padding: 0 10px !important;
+  }
+  .registration-form {
+    padding: 3rem 1rem !important;
+  }
+}

@@ -1,0 +1,17 @@
+.cart-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 400px;
+  width: min(100vw, 350px);
+  background-color: whitesmoke;
+  box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
+  transform: translateX(0);
+  z-index: 999;
+  transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.slide {
+  transform: translateX(110%);
+}

@@ -1,0 +1,8 @@
+.cart-wrapper{
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 1);
+
+}
